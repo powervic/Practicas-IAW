@@ -1,0 +1,102 @@
+body{
+	background-color: #F7F7F7;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+h1{
+	font-size:4em ;
+}
+
+em {
+    font-weight: 700;
+    color: #507297;
+}
+
+strong {
+    font-weight: 800;
+    color: black;
+}
+
+header {
+	display: inline-block;
+	height: 300px;
+    max-width: 750px;
+    display: block;
+    background-color: white;
+    margin: auto;
+    @media screen (max-width: 750px) {
+        width: 100%;
+    }
+}
+
+header > div {
+    float: left;
+}
+
+aside{
+	font-size: 2em;
+	font-style: italic;
+}
+
+aside > p{
+	text-align: center;
+
+}
+
+main {
+    max-width: 750px;
+    display: block;
+    margin: auto;
+    font-size: 1.3em;
+}
+
+p{
+	color: gray;
+	text-align: justify;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+	position: relative;
+	width: 200px;
+	height: 300px;
+	margin-left: 80px;
+}
+
+ul{
+	background-color: gray;
+	color: white;
+	max-width: 750px;
+	margin: auto;
+	padding: 0;
+	display: block;
+	margin-top: 50px;
+}
+
+li{
+	font-family: 'Open Sans', sans-serif;
+	list-style-type: none;
+	display: inline-block;
+	padding: 20px;
+	padding-top: 2em;
+	padding-left:58.5px;
+	padding-bottom: 2em;
+	text-align: center;
+}
+
+ul >li:hover{
+	background-color: black;
+}
+
+#capi{
+	font-family: 'Lobster', cursive;
+	font-size: 80px;
+	display: inline;
+	float: left;
+	padding-right: 20px;
+	}
