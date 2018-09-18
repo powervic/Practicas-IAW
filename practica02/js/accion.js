@@ -13,21 +13,9 @@ $(function() {
     });
 
     $('#letra').on('change', function(e){
-    	if ($(this).val()=="monospace") {
     		$('h1,h2,p').css({
-    			'font-family': 'monospace',
+    			'font-family': $(this).val(),
     		});
-    	}
-    	if ($(this).val()=="sans-serif") {
-    		$('h1,h2,p').css({
-    			'font-family': 'sans-serif',
-    		});
-    	}
-    	if ($(this).val()=="serif") {
-    		$('h1,h2,p').css({
-    			'font-family': 'serif',
-    		});
-    	}
     });
 
 });
