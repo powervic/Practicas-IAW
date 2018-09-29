@@ -1,0 +1,62 @@
+{
+    "results": [
+        {
+            "gender": "male",
+            "name": {
+                "title": "mr",
+                "first": "patrick",
+                "last": "singh"
+            },
+            "location": {
+                "street": "5207 target road",
+                "city": "rotorua",
+                "state": "gisborne",
+                "postcode": 93037,
+                "coordinates": {
+                    "latitude": "60.7259",
+                    "longitude": "-124.0880"
+                },
+                "timezone": {
+                    "offset": "+10:00",
+                    "description": "Eastern Australia, Guam, Vladivostok"
+                }
+            },
+            "email": "patrick.singh@example.com",
+            "login": {
+                "uuid": "daf8da3e-f020-44af-b5dd-99769aab736d",
+                "username": "ticklishswan608",
+                "password": "fortress",
+                "salt": "0dkcrO9C",
+                "md5": "7bbaea77c4af95331056376f6a637dad",
+                "sha1": "f4594923e15a3cac8e05ee899f17d50be858bcb0",
+                "sha256": "1a611eb0a8b736da2ba78d893b1c5e9999cd7a5c225ea71dbb561aff6c65b90a"
+            },
+            "dob": {
+                "date": "1977-08-30T14:33:19Z",
+                "age": 41
+            },
+            "registered": {
+                "date": "2009-12-30T17:30:07Z",
+                "age": 8
+            },
+            "phone": "(566)-741-4859",
+            "cell": "(725)-389-4079",
+            "id": {
+                "name": "",
+                "value": null
+            },
+            "picture": {
+                "large": "https://randomuser.me/api/portraits/men/42.jpg",
+                "medium": "https://randomuser.me/api/portraits/med/men/42.jpg",
+                "thumbnail": "https://randomuser.me/api/portraits/thumb/men/42.jpg"
+            },
+            "nat": "NZ"
+        }
+    ],
+    "info": {
+        "seed": "01d2b905f4819b05",
+        "results": 1,
+        "page": 1,
+        "version": "1.2"
+    }
+}
