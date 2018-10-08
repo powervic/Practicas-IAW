@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Practica05</title>
+    <link href="https://fonts.googleapis.com/css?family=K2D" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header>
+        <h1>FECHAS DE ELECCIONES</h1>
+    </header>
+    <main>
+        <div id="telon"></div>
+        <div id="formulario">
+            <form action="http://jorgesanchez.net/practicas/iaw/practica05/elecciones.xml" method="GET">
+                <h2>Tipo de elección</h2>
+                <select name="tipo" id="tipo">
+                	<option value="elegir" disabled selected>ELIJA EL TIPO</option>
+                	</select>
+                <h2>Fecha</h2>
+                <select name="fecha" id="fecha">
+                </select>
+            </form>
+        </div>
+    </main>
+    <script src="js/jquery.js"></script>
+    <script src="js/accion.js"></script>
+</body>
+
+</html>

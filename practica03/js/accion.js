@@ -24,7 +24,7 @@ $(function() {
         });
 
     });
-    $('body').on('click', '.fila', function(e) {
+    $('body').on('click', '.fila', function(e) {	// duda, por qué body y por qué ,fila
         var id = $(this).attr('id');
         var conexion2 = $.ajax({
             url: 'https://randomuser.me/api/?results=1',
@@ -33,7 +33,7 @@ $(function() {
         });
 
         conexion2.done(function(data) {
-            var pers = data["results"][0];
+            var pers = data["results"][0];	// RESULTS 0 porque sé como me llegan los datos y llega el primer elemento
             
             $('#' + id).html("<figure><img src=" + pers["picture"]["large"] + "></img></figure>" +
                 "<p>" + pers["name"]["first"] + " " +
